@@ -7,7 +7,7 @@ $ScriptPath = 'C:\Users\kk43\Documents\Visual Studio 2015\Projects\SampleWebSite
 Import-Module $ScriptPath
 
 # SYNC ALL CONFIGURATIONS
-Sync-Unicorn -ControlPanelUrl 'http://demowebsite/unicorn.aspx' -SharedSecret 'sBPcp7j95ALLtMKFAn25nC3Sh76GPS4fDyNdUwvXfsxApcWA2LpfbJX7C3Cgv22qaphDdn2XhzVv7uMBWZWd97SU4X9gyc4p2dHC'
+Sync-Unicorn -ControlPanelUrl 'http://devwebsite/unicorn.aspx' -SharedSecret 'sBPcp7j95ALLtMKFAn25nC3Sh76GPS4fDyNdUwvXfsxApcWA2LpfbJX7C3Cgv22qaphDdn2XhzVv7uMBWZWd97SU4X9gyc4p2dHC'
 
 # Note: you may pass -Verb 'Reserialize' for remote reserialize. Usually not needed though.
 
