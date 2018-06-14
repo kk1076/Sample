@@ -1,12 +1,19 @@
 ﻿---
-ID: "75577384-3c97-45da-a847-81b00500e250"
+ID: "a60acd61-a6db-4182-8329-c957982cec74"
 Parent: "ae76a034-9491-4b83-99f5-39f227d6fb59"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Sample/Sample Item/Data/Title
+Path: /sitecore/templates/Sample/HelloWorld Item/Data/Text
 DB: master
 SharedFields:
 - ID: "074f44ca-359a-4c13-b3aa-4a6be2a675b1"
   Hint: Validation
+  Value: 
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: /sitecore/system/Settings/Html Editor Profiles/Rich Text Default
+- ID: "21828437-ea4b-40a1-8c61-4ce60ea41db6"
+  Hint: Validate Button
+  Type: tree list
   Value: 
 - ID: "39847666-389d-409b-95bd-f2016f11eed5"
   Hint: Unversioned
@@ -18,16 +25,16 @@ SharedFields:
 - ID: "9c903e29-650d-4af2-b9bd-526d5c14a1a5"
   Hint: Validator Bar
   Type: tree list
-  Value: "{FCCB80B8-77A2-461D-9D9D-6A4C4D39ED17}"
+  Value: 
 - ID: "a791f095-2521-4b4d-bef9-21dda221f608"
   Hint: __Style
   Value: 
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Rich Text
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 200
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: 
@@ -36,22 +43,22 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: Titel
+    Value: Tekst
   - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
     Hint: __Long description
-    Value: Titlen vises i toppen af dokumentet.
+    Value: Teksten er hovedindholdet i dokumentet.
   - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
     Hint: __Short description
-    Value: Indtast titel på elementet her.
+    Value: Indtast teksten på elementet her.
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Titel
+    Value: Tekst
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170728T142139Z
+      Value: 20170728T142145Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -60,22 +67,22 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: Titel
+    Value: Text
   - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
     Hint: __Long description
-    Value: Der Titel wird am Anfang des Dokuments angezeigt.
+    Value: Der Text enthält den Hauptinhalt des Dokuments.
   - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
     Hint: __Short description
-    Value: Bitte geben Sie hier den Titel des Items ein.
+    Value: Bitte den Text des Items hier eingeben.
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Titel
+    Value: Text
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170728T142510Z
+      Value: 20170728T142516Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -87,10 +94,10 @@ Languages:
     Value: 
   - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
     Hint: __Long description
-    Value: The title is displayed at the top of the document.
+    Value: The text is the main content of the document.
   - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
     Hint: __Short description
-    Value: Please enter title of the item here.
+    Value: Please enter text of the item here.
   - ID: "b12e4906-b96b-495e-b343-cd2e92dc6347"
     Hint: ValidationText
     Value: 
@@ -99,7 +106,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: "20080307T201110:633405174706357029"
+      Value: 20070410T114515
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -108,22 +115,22 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: タイトル
+    Value: テキスト
   - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
     Hint: __Long description
-    Value: タイトルはドキュメントの上部に表示されます
+    Value: テキストはドキュメントのメイン コンテンツです
   - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
     Hint: __Short description
-    Value: ここにアイテムのタイトルを入力してください
+    Value: ここにアイテムのテキストを入力してください
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: タイトル
+    Value: テキスト
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170728T142818Z
+      Value: 20170728T142824Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

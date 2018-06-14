@@ -2,7 +2,7 @@
 ID: "9dfbb778-512f-4ba7-8293-c01503572d30"
 Parent: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
 Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
-Path: /sitecore/templates/Sample/Sample Item/__Standard Values
+Path: /sitecore/templates/Sample/HelloWorld Item/__Standard Values
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
