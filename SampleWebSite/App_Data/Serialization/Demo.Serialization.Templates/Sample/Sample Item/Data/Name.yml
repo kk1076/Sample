@@ -1,0 +1,14 @@
+﻿---
+ID: "a5881d80-6992-4db0-bdba-ba60d3b051a3"
+Parent: "ae76a034-9491-4b83-99f5-39f227d6fb59"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Sample/Sample Item/Data/Name
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20180614T061836:636645539161994278Z"
