@@ -1,0 +1,96 @@
+﻿---
+ID: "e5a3f536-2550-4b2e-a392-a1947caa0d4f"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/content/Home/Sample MVC Item
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        s:l="{D102DFCE-DBA9-46BC-A428-02FAFB3E78FC}">
+        <r
+          uid="{43222D12-08C9-453B-AE96-D406EBB95126}">
+          <p:d />
+        </r>
+        <r
+          uid="{CF044AD9-0332-407A-ABDE-587214A2C808}">
+          <p:d />
+        </r>
+        <r
+          uid="{C55EABC5-DBFB-4F9C-AE79-96144D9E5997}"
+          p:before="*"
+          s:id="{9D19CA6B-0D0F-4433-A1ED-F8213321A5AC}"
+          s:ph="content" />
+        <r
+          uid="{26063B11-41C5-47FB-9F61-8C01C7B8B110}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{9BF29C89-7C0F-4306-9B85-C4E39C59002F}"
+          s:par=""
+          s:ph="main" />
+        <r
+          uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}">
+          <p:d />
+        </r>
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}"
+            s:l="{D102DFCE-DBA9-46BC-A428-02FAFB3E78FC}">
+            <r
+              uid="{A08C9132-DBD1-474F-A2CA-6CA26A4AA650}">
+              <p:d />
+            </r>
+            <r
+              uid="{211F8AC1-BBC7-4E96-A76A-F44BC719F7EC}"
+              s:id="{9BF29C89-7C0F-4306-9B85-C4E39C59002F}"
+              s:ph="content" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180611T115535Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: Welcome to Sample Sitecore Website
+    - ID: "a5881d80-6992-4db0-bdba-ba60d3b051a3"
+      Hint: Name
+      Value: Hello World
+    - ID: "a60acd61-a6db-4182-8329-c957982cec74"
+      Hint: Text
+      Value: |
+        <p style="color: #444444; background-color: #ffffff; margin-right: 0px; margin-bottom: 17px; margin-left: 0px; padding: 0px;">In the sea of distinguished experts who all strive toward creating a circle of loyal clients and placing themselves in the top ranks of the market, finding your much-deserved place is not an easy task, especially if you are a solopreneur.</p>
+        <p style="color: #444444; background-color: #ffffff; margin: 0px 0px 17px; padding: 0px;">Solopreneurs are self-motivated people who are entirely responsible for their client relationship and, ultimately, their career success. Being your own boss means you have to fight the biggest challenge: how to find enough work to be profitable.</p>
+    - ID: "d0fe2baf-483e-44ec-b284-6025b7028873"
+      Hint: Description
+      Value: This is a sample mvc item
