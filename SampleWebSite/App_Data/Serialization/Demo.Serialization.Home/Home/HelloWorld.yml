@@ -70,6 +70,9 @@ Languages:
               s:ph="content" />
           </d>
         </r>
+    - ID: "0e101f5a-7133-46c5-9da9-99ee776e2df0"
+      Hint: MetaData
+      Value: devops, helloworld
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180611T115535Z

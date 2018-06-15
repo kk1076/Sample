@@ -1,7 +1,10 @@
 ﻿@using Sitecore.Mvc
 @{ 
-    Layout = null;
+    Layout = null;    
 }
+<head>
+    <meta name="description" content="@Html.Sitecore().Field("MetaData")" />
+</head>
 <div>
   <h1 class="contentTitle">
     @Html.Sitecore().Field("Title")
