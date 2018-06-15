@@ -80,6 +80,9 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "5e2ef445-7c1e-4c2b-b0e3-5e907eb63f2d"
+      Hint: Name
+      Value: DevOps
     - ID: "75577384-3c97-45da-a847-81b00500e250"
       Hint: Title
       Value: Hello World
