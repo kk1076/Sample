@@ -22,7 +22,7 @@ namespace SampleWebSite.Models
         public void Submethod()
         {
             int p = s - 10;
-            Assert.AreEqual(p, 20);
+            Assert.AreEqual(p,20);
         }
 
     }
