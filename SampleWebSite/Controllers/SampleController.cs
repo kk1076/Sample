@@ -4,11 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using SampleWebSite.Models;
+using NUnit.Framework;
 
 namespace SampleWebSite.Controllers
 {
     public class SampleController : Controller
     {
+        [Test]
         public ActionResult SampleMvcInnerSublayout()
         {
             var model = new SampleMvcInnerSublayoutViewModel
