@@ -10,7 +10,7 @@ namespace SampleWebSite.Controllers
 {
     public class SampleController : Controller
     {
-        [Test]
+        
         public ActionResult SampleMvcInnerSublayout()
         {
             var model = new SampleMvcInnerSublayoutViewModel
