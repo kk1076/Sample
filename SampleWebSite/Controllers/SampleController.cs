@@ -5,12 +5,12 @@ using System.Web;
 using System.Web.Mvc;
 using SampleWebSite.Models;
 using NUnit.Framework;
+using SampleWebSite.Test;
 
 namespace SampleWebSite.Controllers
 {
     public class SampleController : Controller
     {
-        
         public ActionResult SampleMvcInnerSublayout()
         {
             var model = new SampleMvcInnerSublayoutViewModel
@@ -19,10 +19,6 @@ namespace SampleWebSite.Controllers
             };
 
             return View(model);
-        }
-        public ViewResult Index()
-        {
-            return View("Index");
         }
     }
 }

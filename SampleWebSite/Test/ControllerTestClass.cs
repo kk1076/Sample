@@ -13,8 +13,8 @@ namespace SampleWebSite.Test
         [Test]
         public void TestDepartmentIndex()
         {
-            var controller = new SampleController();
-            var actResult = controller.Index();
+            var controller = new TestController();
+            var actResult = controller.Index() as ViewResult;
             Assert.That(actResult.ViewName, Is.EqualTo("Index"));
         }
     }
