@@ -10,12 +10,12 @@ namespace SampleWebSite.Test
 {
     public class ControllerTestClass
     {
-        [Test]
-        public void TestDepartmentIndex()
-        {
-            var obj = new SampleController();
-            var actResult = obj.SampleMvcInnerSublayout() as ViewResult;
-            Assert.That(actResult.ViewName, Is.EqualTo("SampleMvcInnerSublayout"));
-        }
+        //[Test]
+        //public void TestDepartmentIndex()
+        //{
+        //    var obj = new SampleController();
+        //    var actResult = obj.SampleMvcInnerSublayout() as ViewResult;
+        //    Assert.That(actResult.ViewName, Is.EqualTo("SampleMvcInnerSublayout"));
+        //}
     }
 }
