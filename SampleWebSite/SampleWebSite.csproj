@@ -113,9 +113,8 @@
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="nunit.framework, Version=3.6.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\NUnit.3.6.0\lib\net40\nunit.framework.dll</HintPath>
+    <Reference Include="nunit.framework, Version=3.8.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.8.0\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Rainbow, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -351,6 +350,15 @@
     <Compile Include="Test\ControllerTestClass.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\css\font-awesome.min.css" />
+    <Content Include="Content\assets\css\main.css" />
+    <Content Include="Content\assets\css\noscript.css" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\assets\js\breakpoints.min.js" />
+    <Content Include="Content\assets\js\browser.min.js" />
+    <Content Include="Content\assets\js\jquery.min.js" />
+    <Content Include="Content\assets\js\main.js" />
+    <Content Include="Content\assets\js\util.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -390,6 +398,35 @@
     <Content Include="App_Data\Serialization\Demo.Serialization.Templates\Sample\HelloWorld Item.yml" />
     <Content Include="App_Data\Serialization\Demo.Serialization.Home\Home.yml" />
     <Content Include="App_Data\Serialization\Demo.Serialization.Home\Home\HelloWorld.yml" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\assets\fonts\FontAwesome.otf" />
+    <Content Include="Content\assets\sass\base\_page.scss" />
+    <Content Include="Content\assets\sass\base\_reset.scss" />
+    <Content Include="Content\assets\sass\base\_typography.scss" />
+    <Content Include="Content\assets\sass\components\_actions.scss" />
+    <Content Include="Content\assets\sass\components\_box.scss" />
+    <Content Include="Content\assets\sass\components\_button.scss" />
+    <Content Include="Content\assets\sass\components\_form.scss" />
+    <Content Include="Content\assets\sass\components\_icon.scss" />
+    <Content Include="Content\assets\sass\components\_icons.scss" />
+    <Content Include="Content\assets\sass\components\_image.scss" />
+    <Content Include="Content\assets\sass\components\_list.scss" />
+    <Content Include="Content\assets\sass\components\_table.scss" />
+    <Content Include="Content\assets\sass\layout\_bg.scss" />
+    <Content Include="Content\assets\sass\layout\_footer.scss" />
+    <Content Include="Content\assets\sass\layout\_header.scss" />
+    <Content Include="Content\assets\sass\layout\_main.scss" />
+    <Content Include="Content\assets\sass\layout\_wrapper.scss" />
+    <Content Include="Content\assets\sass\libs\_breakpoints.scss" />
+    <Content Include="Content\assets\sass\libs\_functions.scss" />
+    <Content Include="Content\assets\sass\libs\_mixins.scss" />
+    <Content Include="Content\assets\sass\libs\_vars.scss" />
+    <Content Include="Content\assets\sass\libs\_vendor.scss" />
+    <Content Include="Content\assets\sass\main.scss" />
+    <Content Include="Content\assets\sass\noscript.scss" />
     <None Include="Properties\PublishProfiles\DemoWebsite.pubxml" />
     <None Include="Properties\PublishProfiles\SampleWebSite.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -445,6 +482,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Start\Controllers\" />
+    <Folder Include="Content\images\" />
     <Folder Include="Serialization\" />
     <Folder Include="Views\Renderings\" />
   </ItemGroup>
