@@ -20,6 +20,10 @@ namespace SampleWebSite.Controllers
 
             return View(model);
         }
+        public ViewResult Index()
+        {
+            return View("Index");
+        }
     }
 }
 

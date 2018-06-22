@@ -479,6 +479,7 @@
     <Content Include="Views\Sample\SampleMvcInnerSublayout.cshtml" />
     <Content Include="Views\Sample\SampleMvcRendering.cshtml" />
     <Content Include="Views\Sample\SampleMvcSublayout.cshtml" />
+    <Content Include="Views\Sample\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Start\Controllers\" />
