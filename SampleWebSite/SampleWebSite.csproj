@@ -444,6 +444,7 @@
     <Content Include="Views\Sample\SampleMvcSublayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Start\Controllers\" />
     <Folder Include="Serialization\" />
     <Folder Include="Views\Renderings\" />
   </ItemGroup>
