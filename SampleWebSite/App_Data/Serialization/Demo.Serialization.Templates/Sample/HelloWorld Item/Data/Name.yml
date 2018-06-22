@@ -1,0 +1,14 @@
+﻿---
+ID: "7bc07cf1-c6bf-43fc-889f-f7b774413611"
+Parent: "ae76a034-9491-4b83-99f5-39f227d6fb59"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Sample/HelloWorld Item/Data/Name
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180622T060050Z
