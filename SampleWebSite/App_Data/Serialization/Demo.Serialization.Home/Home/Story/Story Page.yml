@@ -1,0 +1,40 @@
+﻿---
+ID: "72c71244-b3e3-4d02-a01c-0ff81004ea84"
+Parent: "2e9c07d6-75ba-4f96-a6e0-0127ebf69ac9"
+Template: "1d0a2bc9-129d-4c68-b7fa-f2a8140293af"
+Path: /sitecore/content/Home/Story/Story Page
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{D102DFCE-DBA9-46BC-A428-02FAFB3E78FC}">
+        <r
+          id="{A487D150-A902-4238-9C82-65A39074AB15}"
+          ph="content"
+          uid="{14504C91-53FC-4D9C-92EF-F82706787288}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1236983a-9fc1-4b35-950f-6f3dfb1145a2"
+      Hint: Heading
+      Value: Story
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180628T045615Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "974788f4-1c00-4dc8-965d-c84883a86d1d"
+      Hint: Description
+      Value: |
+        A (modular, highly tweakable) responsive one-page template designed by &lt;a href="https://html5up.net"&gt;HTML5 UP&lt;/a&gt; and released for free under the &lt;a href="https://html5up.net/license"&gt;Creative Commons&lt;/a&gt;.

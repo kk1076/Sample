@@ -2,16 +2,14 @@
 @{
     Layout = null;
 }
-<!DOCTYPE html>
-<html>
+
 <head>    
     <title>Story</title>    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />    
     <link href="~/Content/assets/css/main.css" rel="stylesheet" />
     <noscript><link href="~/Content/assets/css/noscript.css" rel="stylesheet" /></noscript>    
-</head>
-<body class="is-preload">
+</head><body class="is-preload">
 
     <!-- Wrapper -->
     <div id="wrapper" class="divided">
@@ -19,8 +17,10 @@
         <!-- One -->
         <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
             <div class="content">
-                <h1>Story</h1>
-                <p class="major">A (modular, highly tweakable) responsive one-page template designed by <a href="https://html5up.net">HTML5 UP</a> and released for free under the <a href="https://html5up.net/license">Creative Commons</a>.</p>
+                <h1>@Html.Sitecore().Field("Heading")</h1>              
+                <p class="major">
+                    @Html.Sitecore().Field("Description")
+                </p>
                 <ul class="actions stacked">
                     <li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
                 </ul>
@@ -336,7 +336,7 @@
                     <li><a href="#" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
                     <li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
                 </ul>
-                <p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+                <p>&copy; Story Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
             </div>
         </footer>
 
@@ -351,4 +351,3 @@
     <script src="~/Content/assets/js/util.js"></script>
     <script src="~/Content/assets/js/main.js"></script>    
 </body>
-</html>
