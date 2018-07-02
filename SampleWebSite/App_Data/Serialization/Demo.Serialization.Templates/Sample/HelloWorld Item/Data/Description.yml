@@ -1,8 +1,8 @@
 ﻿---
-ID: "7bc07cf1-c6bf-43fc-889f-f7b774413611"
+ID: "cc666481-b147-4244-899c-198b2d4ff1e4"
 Parent: "ae76a034-9491-4b83-99f5-39f227d6fb59"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Sample/HelloWorld Item/Data/Name
+Path: /sitecore/templates/Sample/HelloWorld Item/Data/Description
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -10,7 +10,7 @@ SharedFields:
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 75
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180622T060050Z
+      Value: 20180702T111632Z
