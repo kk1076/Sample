@@ -1,2 +1,2 @@
 # Sample
-SampleWebsite for devops
+SampleWebsite for Devops
